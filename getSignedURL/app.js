@@ -37,7 +37,7 @@ const getUploadURL = async function(event) {
     Bucket: process.env.UploadBucket,
     Key,
     Expires: URL_EXPIRATION_SECONDS,
-    ContentType: 'application/json',
+    ContentType: 'text/plain',
 
     // This ACL makes the uploaded object publicly readable. You must also uncomment
     // the extra permission for the Lambda function in the SAM template.
