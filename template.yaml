@@ -66,10 +66,10 @@ Resources:
           AllowedOrigins:
             - "*"
       PublicAccessBlockConfiguration:
-      BlockPublicAcls: false
-      BlockPublicPolicy: false
-      IgnorePublicAcls: false
-      RestrictPublicBuckets: false
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
 
 ## Take a note of the outputs for deploying the workflow templates in this sample application
 Outputs:
